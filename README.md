@@ -1,6 +1,7 @@
 # dbt_template
 
-Steps on copying branch of one repo to another repo:
+Steps on copying branch of one **public** repo to another repo:
+- `cd` i.e. change to directory where you want to make a copy of original repo
 - `git clone --single-branch --branch <branch_name> <github_repo_url>` - to clone specific branch locally ([per stackoverflow](https://stackoverflow.com/questions/49290566/how-to-copy-only-single-branch-from-one-git-repo-to-another))
   - e.g. `git clone --single-branch --branch dbtCore_local https://github.com/arthurcht/dbtRepo.git` 
 - `cd <copied repo name>` - to enter root directory of cloned branch ([per stackoverflow](https://stackoverflow.com/questions/49290566/how-to-copy-only-single-branch-from-one-git-repo-to-another))
