@@ -5,6 +5,9 @@ Welcome to your new dbt project!
 ```
 python3 -m venv <name of virtual environment> # create a virtual environment
 e.g. python3 -m venv dbtBigQuery_venv
+
+<name of virtual environment>/Scripts/activate # activate virtual environment on WINDOWS
+e.g. dbtBigQuery_venv/Scripts/activate
 ```
 
 - **NOTE:** This project uses Postgres as data warehouse. See [setup instructions](https://docs.getdbt.com/docs/core/connect-data-platform/postgres-setup) for other data warehouses.
